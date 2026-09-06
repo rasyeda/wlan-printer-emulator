@@ -9,6 +9,8 @@ thermal printer plugged in to test the WiFi/LAN print path — including the par
 that are awkward to test with real hardware, like a printer that is switched off
 or jammed mid-job.
 
+![The app showing a received print job](docs/screenshot.png)
+
 ## Why a TCP listener is a complete printer
 
 Network thermal printers speak "raw" ESC/POS over port 9100: the client opens a
